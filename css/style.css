@@ -1,3 +1,191 @@
-body{
-    background-color: blanchedalmond;
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Set up basic styling */
+  body {
+    font-family: Arial, sans-serif,Verdana;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display:flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+ 
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .section-main{
+    position: relative;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    
+  }
+
+
+  .image-profile{
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    
+  }
+  .profile-img{
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+    width: 10rem;
+  }
+
+  .paragraph-about{
+    
+  
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  }
+  
+
+  .paragraph-about p{
+    text-align: justify; 
+    text-justify: inter-word;
+  }
+  
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  section li{
+    list-style-type:square;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main section styles */
+  section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #b4e8f6;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    margin-bottom: 10px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  article a {
+    color: #2b1e1e;
+    text-decoration:none;
+  }
+
+  section a {
+    color: #2b1e1e;
+    text-decoration:none;
+  }
+
+
+  .project-description-main {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .project-description-sub {
+    display: inline-block;
+    border: 1px solid rgb(140, 24, 24);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    
+    
+  }
+img{
+border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
+
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    nav ul li {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    section {
+      padding: 10px;
+    }
+    
+    section h2 {
+      font-size: 20px;
+    }
+    
+    section h3 {
+      font-size: 18px;
+    }
+  }
